@@ -1,0 +1,75 @@
+* {
+  border: 2px solid red;  
+}
+
+html {
+
+}
+
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header * {
+    max-height: 200px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav {
+    width: 85px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 81, 255);
+}
+
+.headshot {
+    border-radius: 25px;
+    max-width: 100%;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topics {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects section {
+    flex: 1 1 100px;
+    background-color: green;
+}
+
+.prod {
+    width: 400px;
+    height: 10vh;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
