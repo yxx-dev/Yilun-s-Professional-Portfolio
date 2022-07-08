@@ -1,23 +1,22 @@
-# Code Refactor of a Horiseon Webpage
+# Yilun's Professional Portfolio
 
 ## Description
 
-Refactor of html and css codes of the Horiseon webpage. Improved html & css semantics and structure, image accessibility, heading, title & page centering.
+Portal webpage to my growing professional portfolio.
 
 ## Table of Contents (Optional)
 NA
 
 ## Installation
-Common webbrowser that supports html and css
+Common webbrowser that supports html, CSS and JavaScript
 
 ## Usage
-For bootcamp class use only. <br />
+For demonstration purpose only. <br />
 Screenshot: <br />
-![alt text](/Develop/assets/images/Screenshot.png)
+![alt text](/assets/images/Screenshot.png)
 
 ## Credits
-Starter code cloned from:
-git@github.com:coding-boot-camp/urban-octo-telegram.git
+All codes started from scratch
 
 ## License
 NA
@@ -26,10 +25,10 @@ NA
 NA
 
 ## Features
-Hyperlinks navigotors on the upperright corner of the webpage
+Flexbox, media query, etc.
 
 ## How to Contribute
-For grading purpose only
+Coming soon...
 
 ## Tests
 NA
