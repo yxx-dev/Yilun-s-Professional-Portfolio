@@ -1,75 +1,128 @@
 * {
-  border: 2px solid red;  
+  border: 1px solid grey;  
 }
 
 html {
-
+    
 }
 
 body {
     max-width: 1280px;
     margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: rgb(232, 236, 239);
 }
+
+a:link {
+    color: inherit;
+}
+a:hover, a:focus {
+    color: green;
+}
+a:visited {
+    color: inherit;
+}
+a:active {
+    color: white;
+}
+
+h1 {font-size:x-large;}
+h2 {font-size:larger;}
+h3 {font-size:medium;}
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin: 5px;
+    background-color: rgb(188, 202, 206);
 }
 
 header * {
-    max-height: 200px;
+    max-height: 160px;
 }
 
 header nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .nav {
-    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
     margin: 5px;
     text-align: center;
     text-decoration: underline;
-    color: rgb(0, 81, 255);
+    background-color: grey;
+    color: rgb(255, 136, 0);
 }
 
 .headshot {
-    border-radius: 25px;
-    max-width: 100%;
+    border-radius: 10px;
+    max-width: 20%;
 }
 
 .subtitle {
     display: flex;
     justify-content: flex-end;
+    margin: 5px;
 }
 
 .topics {
     display: flex;
-    flex-direction: row;
-    justify-content: stretch;
+    margin: 0px;
 }
 
+.left-title {
+    display: flex;
+    border-right: 3px grey solid;
+    padding-right: 5px;
+    justify-content: right;
+    margin: 5px;
+    margin-right: 0px;
+    width: 20%;
+}
 
-.projects {
+.right-content {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-.projects section {
-    flex: 1 1 100px;
-    background-color: green;
+    align-items: flex-start;
+    margin: 5px;
 }
 
 .prod {
-    width: 400px;
-    height: 10vh;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 180px;
+    margin: auto;
+}
+/*
+.proj1 {
+    display: flex;
+    flex: 2 1 800px;
+}
+*/
+.proj2 {
+    display: flex;
+    flex: 1 1 800px;
 }
 
-.info {
+.contact-channel {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
 }
+
+
