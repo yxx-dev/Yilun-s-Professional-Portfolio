@@ -4,7 +4,7 @@
 Portal webpage to my growing professional portfolio.
 Deployment: https://yxx-dev.github.io/Yilun-s-Professional-Portfolio/
 
-## Table of Contents (Optional)
+## Table of Contents
 NA
 
 ## Installation
